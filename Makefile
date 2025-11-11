@@ -37,6 +37,7 @@ lint:
 format:
 	ruff check --fix
 	ruff format
+	nbqa black notebooks/*.ipynb
 
 
 
