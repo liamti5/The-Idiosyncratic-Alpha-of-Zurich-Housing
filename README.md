@@ -104,4 +104,5 @@ uv run jupyter notebook
 4. `2.1-VAR.ipynb` contains the VAR model and its predictions.
 5. `3.0-model-comparison.ipynb` is where the Ridge Regressions and VAR models are compared on their performance. 
 
-
+### 5. tsa package description
+Some utility funcitons like for plotting or to run the expanding window forecast are implemented in the tsa package for convenience. 
