@@ -8,6 +8,18 @@ This is the code for my final project for the Time Series Analysis course at Was
 
 ## Project Organization
 
+### Notebooks
+1. `1.0_data-exploration-and-combine-data.ipynb` contains the inital data exploration and is where the data gets combined into one dataframe.
+2. `1.1_stationarity-cointegration-structuralchange-check.ipynb` is where we check for stationarity, and make changes to the variables to ensure stationarity and enable future modelling.
+3. `2.0-ridge-regression.ipynb` contains the two Ridge Regressions, as well as bootstrapping, confidence interval calculation and prediction.
+4. `2.1-VAR.ipynb` contains the VAR model and its predictions.
+5. `3.0-model-comparison.ipynb` is where the Ridge Regressions and VAR models are compared on their performance. 
+
+### tsa package description
+Some utility funcitons like for plotting or to run the expanding window forecast are implemented in the tsa package for convenience. 
+
+### Project structure
+
 ```
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
@@ -96,13 +108,3 @@ This will:
 ```bash
 uv run jupyter notebook
 ```
-
-### 4. Notebook descriptions
-1. `1.0_data-exploration-and-combine-data.ipynb` contains the inital data exploration and is where the data gets combined into one dataframe.
-2. `1.1_stationarity-cointegration-structuralchange-check.ipynb` is where we check for stationarity, and make changes to the variables to ensure stationarity and enable future modelling.
-3. `2.0-ridge-regression.ipynb` contains the two Ridge Regressions, as well as bootstrapping, confidence interval calculation and prediction.
-4. `2.1-VAR.ipynb` contains the VAR model and its predictions.
-5. `3.0-model-comparison.ipynb` is where the Ridge Regressions and VAR models are compared on their performance. 
-
-### 5. tsa package description
-Some utility funcitons like for plotting or to run the expanding window forecast are implemented in the tsa package for convenience. 
